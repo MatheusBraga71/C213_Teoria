@@ -1,7 +1,6 @@
 from scipy.io import loadmat
 
 mat = loadmat('TransferFunction11.mat')
-
 degrau = mat.get('degrau')
 saida = mat.get('saida')
 t1 = mat.get('t')

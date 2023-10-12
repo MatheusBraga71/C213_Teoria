@@ -79,7 +79,7 @@ def entradaPID():
 
 while True:
     print('Menu de Opções: ')
-    print('[1] - Visualizar parâmetros do PID obtidos pelo método de KN.')
+    print('[1] - Visualizar parâmetros do PID obtidos pelo método de ZN.')
     print('[2] - Visualizar parâmetros do PID obtidos pelo método de CC.')
     print('[3] - Entrar com os parâmetros do PID manualmente.')
     print('[4] - Sair.')

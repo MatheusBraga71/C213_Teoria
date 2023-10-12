@@ -29,7 +29,7 @@ H_pade = cnt.tf(num_pade, den_pade)
 Hs = cnt.series(H, H_pade)
 
 # Ajustes
-novo_kp = kp_zn - 0.7
+novo_kp = kp_zn - 2*(kp_zn/4)
 novo_ti = ti_zn
 novo_td = td_zn
 
